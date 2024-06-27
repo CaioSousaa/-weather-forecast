@@ -11,4 +11,6 @@ mongoose.connect(
 app.use(express.json());
 app.use(morgan("dev"));
 
+app.use(require("./routes"));
+
 app.listen(3333, () => console.log("server is run"));
