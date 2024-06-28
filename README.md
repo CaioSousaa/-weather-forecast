@@ -1,0 +1,1 @@
+Este projeto consiste no consumo da API externa OpenWeather. Ela que é uma API pública que recebe como parâmetro o nome de uma cidade qualquer e retorna um json com diversas informações geográficas e meteorológicas dessa cidade. Então decidi fazer um micro-serviço que faz isso de forma direta, retornando o clima, umidade, e informações geográficas da cidade.
